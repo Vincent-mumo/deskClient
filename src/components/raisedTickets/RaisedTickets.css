@@ -1,0 +1,95 @@
+.raisedTickets{
+    position: absolute;
+    top: 90px;
+    right: 60px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    background-color: #F3F6FF;
+    padding: 10px;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticketsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.closeButton{
+    background-color: green;
+    width: 140px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-bottom: 5px;
+}
+
+.ticket{
+    display: flex;
+    gap:60px;
+    border-bottom: 1px solid blue;
+    margin-bottom: 10px;
+}
+
+.ticketData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.dataTitle{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.dataDesc{
+    font-size: 13px;
+    color: gray;
+}
+
+.dataDescAdmin{
+    width: 300px;
+    height: 50px;
+    overflow-x: scroll;
+    font-size: 13px;
+    color: gray;
+}
+
+.Raised.Approved{
+    background-color: green;
+    color: white;
+    border: none;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.Raised.Declined{
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 4px;
+    border-radius: 5px;
+
+}
+.Raised.Pending{
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 4px;
+    border-radius: 5px;
+
+}

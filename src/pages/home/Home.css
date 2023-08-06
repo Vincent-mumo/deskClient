@@ -1,0 +1,29 @@
+.home{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    gap: 50px;
+}
+
+button{
+    padding: 7px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    font-size: 13px;
+    font-weight: 300;
+    cursor: pointer;
+    background-color: #FDA597;
+    color: white;
+}

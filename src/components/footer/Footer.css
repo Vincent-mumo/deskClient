@@ -1,0 +1,29 @@
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    overflow-x: hidden;
+    background-color: #5161F1;
+    height: 50px;
+}
+
+h5{
+    margin-left: 20px;
+    color: white;
+}
+
+h6{
+    margin-right: 50px;
+    color: white;
+}
+
+.h{
+    color: white;
+}
+
+
+.K{
+    color: white;
+}

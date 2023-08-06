@@ -1,0 +1,45 @@
+.navbar{
+    height: 40px;
+    background-color: #5161F1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navImage{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbarName{
+    font-weight: 400;
+    color: white;
+    width: ma;
+}
+
+.navbarButton{
+    width: 120px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #FDA597;
+    color: white;
+    margin-right: 10px;
+}

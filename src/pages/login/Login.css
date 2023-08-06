@@ -1,0 +1,52 @@
+.login{
+    height: 700px;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://wpmanageninja.com/wp-content/uploads/2021/03/Untitled-design-1-1.png");
+}
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+h5{
+    font-weight: 400;
+    color: black;
+}
+.loginInput{
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid orange;
+    width: 57%;
+  }
+  
+  .loginButton {
+    border: none;
+    padding: 10px 20px;
+    background-color:orange;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 62%;
+  }
+  
+  .loginButton:disabled{
+    background-color: red;
+    cursor: not-allowed;
+  }
+
+  .error{
+    color: red;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 300;
+  }
