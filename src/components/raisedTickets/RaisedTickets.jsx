@@ -32,11 +32,11 @@ const RaisedTickets = ({close}) => {
       <div className="closeButton" onClick={close}>close</div>
         {tickets.map((ticket) => (
           <div className="ticket">
-          <div className="ticketData">
+          <div className="ticketDataId">
             <h3 className="dataTitle">ticketId</h3>
             <span className="dataDesc">{ticket?._id}</span>
           </div>
-          <div className="ticketData">
+          <div className="ticketDataDate">
             <h3 className="dataTitle">Date Raised</h3>
             <span className="dataDesc">{new Date(ticket?.createdAt).toDateString()}</span>
           </div>
@@ -56,9 +56,9 @@ const RaisedTickets = ({close}) => {
             <h3 className="dataTitle">Ticket type</h3>
             <span className="dataDesc">{ticket?.type}</span>
           </div>
-          <div className="ticketData">
-            <h3 className="dataTitle">Admin Comments</h3>
-            <span className="dataDescAdmin">{ticket?.adminComments ? ticket?.adminComments : "Admin is yet to comment,if the does that the comments will appear here"}</span>
+          <div className="comments">
+            <h3 className="commentsTitle">Admin Comments</h3>
+            <span className="commentsDesc">{ticket?.adminNotes ? ticket?.adminNotes : "Admin is yet to comment,if the does that the comments will appear here"}</span>
           </div>
         </div>
         ))}

@@ -51,7 +51,7 @@ const RaiseTicket = ({closed}) => {
         </div>
         <div className="buttons">
         <button className="submitButton" onClick={handleClick}>Submit</button>
-        <button className="submitButton">Close</button>
+        <button className="submitButton" onClick={()=>closed()}>Close</button>
         </div>
       </form>
     </div>
